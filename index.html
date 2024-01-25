@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek, React Developer</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- box icon link -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- locomotive css js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <!-- menu section--------- -->
+  <div class="menu">
+    <div class="profile-img">
+      <img src="profile.png" alt="" srcset="" />
+    </div>
+    <div class="navbar">
+      <i class="bx bxs-home-alt-2"></i><a href="#home"> Home</a>
+      <i class="bx bxs-meh-blank"></i> <a href="#skill">What I know?</a>
+      <i class="bx bxs-binoculars"></i> <a href="#projects">Projects</a>
+    </div>
+    
+    <div class="social-icons">
+      <a href="https://github.com/Abhishek758666"><i class="bx bxl-github"></i></a>
+      <a href=""><i class="bx bxl-linkedin-square"></i></a>
+      <a href=""><i class="bx bxl-facebook-square"></i></a>
+      <a href=""><i class="bx bxl-instagram-alt"></i></a>
+      
+    </div>
+  </div>
+
+  <!-- Dark mode and light mode -->
+  <div class="page-mode">
+    <i class='bx bxs-moon'></i>
+  </div>
+  <!-- hire me button---------- -->
+  <a href="#contact" class="hire-me"> Hire me </a>
+
+  <!-- back box -->
+  <div id="back-box"></div>
+
+  <!-- main content -->
+  <div class="container">
+
+  <!-- Home section -->
+    <section class="home" id="home">
+      <div id="cursor1"></div>
+      <div id="cursor2"></div>
+
+      <div class="h-box">
+        <p>01</p>
+        <p>< Hi, I am <span>Abhishek !</span> ></p>
+        <p>02</p>
+        <p>
+          < I <span>design </span> <i class="bx bxs-paint"></i> and
+          <span>develop </span> <i class="bx bx-laptop"></i>
+        </p>
+        <p>03</p>
+        <p>React <span>websites</span> . ></p>
+      </div>
+      <p>
+        I am currently a student at Patan Multiple Campus, and I am actively seeking a React internship. </p>
+      <button class="cv-btn">
+        <a href="#">DOWNLOAD CV</a>
+      </button>
+    </section>
+
+    <!-- skills section -->
+    <section class="skill" id="skill">
+      <h1>Skills</h1>
+      <div class="s-elem">
+        <div class="overlay"></div>
+        <p class="s-text">HTML <span>↑</span></p>
+      </div>
+      <div class="s-elem">
+        <div class="overlay"></div>
+        <p class="s-text">CSS <span>↑</span></p>
+      </div><div class="s-elem">
+        <div class="overlay"></div>
+        <p class="s-text">JS <span>↑</span></p>
+      </div><div class="s-elem">
+        <div class="overlay"></div>
+        <p class="s-text">GSAP <span>↑</span></p>
+      </div><div class="s-elem">
+        <div class="overlay"></div>
+        <p class="s-text">REACT JS <span>↑</span></p>
+      </div><div class="s-elem">
+        <div class="overlay"></div>
+        <p class="s-text">NEXT JS <span>↑</span></p>
+      </div>
+    </section>
+
+    <!-- projects section -->
+    <section class="projects" id="projects">
+
+      <div class="project-box" id="project1">
+        <img class="img" src="1.gif"  alt="project1" />
+      </div>
+
+      <div class="project-box" id="project2">
+        <img class="img" src="2.gif" alt="project2" />
+      </div>
+
+      <div class="project-box" id="project3">
+        <img class="img" src="3.gif" alt="project3" />
+      </div>
+
+      <div class="project-box" id="project4">
+        <img class="img" src="4.gif" alt="project4"  />
+      </div>
+
+      <div class="project-box" id="project5">
+        <img class="img" src="5.gif" alt="project5" />
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <div class="c-left">
+        <div class="cl-up">
+          <h1>WORK WITH ME</h1>
+        </div>
+        <div class="cl-down">
+          <p>Patan Dhoka Lalitpur</p>
+          <p>986041****</p>
+          <p>aabhik81@gmail.com</p>
+        </div>
+      </div>
+      <div class="c-right">
+        <input type="text" placeholder="Enter Your name">
+        <input type="email" placeholder="Enter your Email">
+        <button><span>SUBMIT</span></button>
+      </div>
+    </section>
+
+  </body>
+  <!-- locomotive js -->
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <!-- gsap cdn link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</html>
